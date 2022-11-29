@@ -6,7 +6,7 @@ const app = express();
 	
 const args = minimist(process.argv.slice(2));
 	
-args['port'];
+//args['port'];
 const port = args.port || 5000;
 	
 const server = app.listen(port);
